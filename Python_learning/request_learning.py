@@ -26,7 +26,7 @@ print (response.url)
 headers = {'User-Agent': 'Mozilla/5.0'}  # 设置请求头
 params = {'key1': 'value1', 'key2': 'value2'}  # 设置查询参数
 data = {'username': 'example', 'password': '123456'}  # 设置请求体
-response = requests.post('https://www.runoob.com/try/ajax/demo_post2.php', headers=headers, params=params, data=data)
+response = requests.post('https://www.runoob.com', headers=headers, params=params, data=data)
 
 
 print(response.text)

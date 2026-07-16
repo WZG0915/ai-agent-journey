@@ -99,7 +99,7 @@ try:
         messages = [
             {
                 "role": "user",
-                "content": "请给我解释一下应该如何零基础学习ai agent,字数保持在300字" 
+                "content": "请对我说‘Hello, AI Agent!’，不要包含任何其他多余的解释或字句。" 
             }
         ],
         temperature = 0.0
