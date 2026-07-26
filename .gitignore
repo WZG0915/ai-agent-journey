@@ -13,5 +13,7 @@ __pycache__/
 .vscode/
 
 # 4. 预留：如果你以后在 Data_Learning 里下载了大型数据集或模型权重，记得在这里加上：
-# Data_Learning/datasets/
-# Data_Learning/checkpoints/
+
+# 5. 忽略超限大文件
+ML_Learning/KNN_Learning/data/手写数字识别.csv
+ML_Learning/KNN_Learning/my_model/Num_Recognize.pkl
